@@ -1,0 +1,44 @@
+--- 
+service1:
+    - container1
+    - container2
+service2:
+    - container3
+    - container4
+all:
+    - container1
+    - container2
+    - container3    
+    - container4
+    - container5
+---
+
+container1:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings
+
+container2:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings
+
+container3:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings
+
+container4:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings
+
+container5:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings
+
+container6:
+    image:  imagename
+    volumes: volumes
+    volume_bindings: volume bindings    
