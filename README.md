@@ -1,3 +1,7 @@
+# Dirg - a docker container configuration and orchestration tool
+
+Maintained by [Stephan Brosinski](https://github.com/sbrosinski) for [Smaato Inc.](https://github.com/smaato/).
+
 Dirg is an orchestration tool for docker. It reads a yaml file describing services made of docker container definitions and allows to apply a number of commands to these groups of containers.
 
 # Why another orchestration tool?
